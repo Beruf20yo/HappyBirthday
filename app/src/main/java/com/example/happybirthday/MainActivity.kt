@@ -47,7 +47,7 @@ fun GreetingPreview() {
 @Composable
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
-        Greeting("Android")
+        Greeting("James")
     }
 }
 
