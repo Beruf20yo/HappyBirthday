@@ -34,7 +34,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingImage(message = getString(R.string.happy_birthday_text), from = "From Emma")
+                    GreetingImage(getString(R.string.happy_birthday_text),
+                        getString(R.string.signature_text))
                 }
             }
         }
