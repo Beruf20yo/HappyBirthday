@@ -66,3 +66,7 @@ fun BirthdayCardPreview() {
     }
 }
 
+@Composable
+fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) {
+}
+
